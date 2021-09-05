@@ -104,14 +104,18 @@ class Game extends React.Component {
             
             return (
                 <li key={move}>
-                    <button onClick={() => this.jumpTo(move)}>{desc}</button>
+                    <button className="moveButton" onClick={() => this.jumpTo(move)}>
+                        {desc}
+                    </button>
                 </li>
             );
         });
 
         let status;
         if (winner) {
-            status = 'Winner: ' + winner;
+            status = 'Winner: ' + winner + "!";
+        } else if (this.state.stepNumber === 9) {
+            status = 'It\'s a draw!';
         } else {
             status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
         }
@@ -123,10 +127,10 @@ class Game extends React.Component {
                     squares={current.squares}
                     onClick={(i) => this.handleClick(i)}
                 />
+                <div className="status">{status}</div>
             </div> 
             <div className="game-info">
-                <div>{status}</div>
-                <ol>{moves}</ol>
+                <ol className="moves">{moves}</ol>
             </div>
             </div>
         );

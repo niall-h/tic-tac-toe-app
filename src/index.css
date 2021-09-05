@@ -1,51 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-    font: 14px "Century Gothic", Futura, sans-serif;
-    margin: 20px;
-  }
-  
-  ol, ul {
-    padding-left: 30px;
-  }
-  
-  .board-row:after {
-    clear: both;
-    content: "";
-    display: table;
-  }
-  
-  .status {
-    margin-bottom: 10px;
-  }
-  
-  .square {
-    background: #fff;
-    border: 1px solid #999;
-    float: left;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 34px;
-    height: 34px;
-    margin-right: -1px;
-    margin-top: -1px;
-    padding: 0;
-    text-align: center;
-    width: 34px;
-  }
-  
-  .square:focus {
-    outline: none;
-  }
-  
-  .kbd-navigation .square:focus {
-    background: #ddd;
-  }
-  
-  .game {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .game-info {
-    margin-left: 20px;
-  }
-  
+  font: 50px "Century Gothic", Futura, sans-serif;
+  margin: 0px;
+  background: url("background-gif.gif") no-repeat center;
+  background-size: cover;
+}
+ol, ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: transparent;
+  border: 3px solid black;
+  float: left;
+  font-size: 100px;
+  font-weight: bold;
+  line-height: 150px;
+  height: 150px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 150px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.square:hover {
+  background-color: #fff;
+  opacity: 50%;
+  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game-board {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  padding-left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  min-width: 50%;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  min-width: 50%;
+}
+
+.status {
+  font: 50px "Century Gothic", Futura, sans-serif;
+  margin: 40px 0px 0px 0px;
+}
+
+.moves {
+  font: 40px "Century Gothic", Futura, sans-serif;
+  height: 550px;
+}
+
+.moveButton {
+  font: 20px "Century Gothic", Futura, sans-serif;
+  background-color: #DCDCDC;
+  opacity: 80%;
+}
