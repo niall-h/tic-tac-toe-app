@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tic-tac-toe-app/static/css/main.828799c3.chunk.css",
+    "main.css": "/tic-tac-toe-app/static/css/main.d1ead98c.chunk.css",
     "main.js": "/tic-tac-toe-app/static/js/main.fcb748c1.chunk.js",
     "main.js.map": "/tic-tac-toe-app/static/js/main.fcb748c1.chunk.js.map",
     "runtime-main.js": "/tic-tac-toe-app/static/js/runtime-main.e72c773e.js",
@@ -8,14 +8,14 @@
     "static/js/2.c700311d.chunk.js": "/tic-tac-toe-app/static/js/2.c700311d.chunk.js",
     "static/js/2.c700311d.chunk.js.map": "/tic-tac-toe-app/static/js/2.c700311d.chunk.js.map",
     "index.html": "/tic-tac-toe-app/index.html",
-    "static/css/main.828799c3.chunk.css.map": "/tic-tac-toe-app/static/css/main.828799c3.chunk.css.map",
+    "static/css/main.d1ead98c.chunk.css.map": "/tic-tac-toe-app/static/css/main.d1ead98c.chunk.css.map",
     "static/js/2.c700311d.chunk.js.LICENSE.txt": "/tic-tac-toe-app/static/js/2.c700311d.chunk.js.LICENSE.txt",
     "static/media/index.css": "/tic-tac-toe-app/static/media/background-gif.505c64f5.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.e72c773e.js",
     "static/js/2.c700311d.chunk.js",
-    "static/css/main.828799c3.chunk.css",
+    "static/css/main.d1ead98c.chunk.css",
     "static/js/main.fcb748c1.chunk.js"
   ]
 }
