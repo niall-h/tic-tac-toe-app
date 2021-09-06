@@ -44,7 +44,6 @@ ol, ul {
 .square:hover {
   background-color: #fff;
   transition-duration: 0.5s;
-  -webkit-transition-duration: 0.5s;
 }
 
 .kbd-navigation .square:focus {
@@ -90,5 +89,4 @@ ol, ul {
 
 .moveButton {
   font: 20px "Century Gothic", Futura, sans-serif;
-  background-color: transparent;
 }
